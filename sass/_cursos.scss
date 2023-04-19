@@ -1,0 +1,23 @@
+.main {
+    color: $light;
+}
+.curso {
+    padding: 24px 0;
+    border-bottom: 1px solid $light;
+}
+.curso:last-of-type {
+    border: none;
+}
+@media (min-width: 768px) {
+    .curso {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        gap: 36px;
+    }
+}
+.curso__label {
+    font-weight: 700;
+}
+.curso__info {
+    font-weight: 400;
+}

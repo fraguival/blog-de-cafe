@@ -1,0 +1,59 @@
+.header {
+    background-image: url('../imagenes/banner.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 600px;
+    margin-bottom: 12px;
+    border: 8px solid $border;
+    border-radius: 12px;
+}
+.franja {
+    margin-top: 36px;
+}
+@media (min-width: 768px) {
+    .franja {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+}
+.logo {
+    color: $light;
+    
+}
+.logo__nombre {
+    font-weight: 400;
+    margin: 0;
+    text-align: center;
+}
+.logo__bold {
+    font-weight: 700;
+}
+.nav {
+    padding: 24px;
+}
+@media (min-width: 768px) {
+    .nav {
+        display: flex;
+        gap: 12px;
+    }
+}
+.nav__enlace {
+    display: block;
+    color: $light;
+    font-size: 20px;
+    padding: 4px;
+    text-align: center;
+}
+.header__texto {
+    color: $light;
+    margin-top: 98px;
+    text-align: center;
+}
+@media (min-width: 768px) {
+    .header__texto {
+        padding-top: 60px;
+    }
+}
+

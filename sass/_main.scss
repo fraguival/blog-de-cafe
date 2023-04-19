@@ -1,0 +1,31 @@
+@media (min-width:768px) {
+    .contenido-principal {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        gap: 24px;
+        color: $light;
+    }
+}
+.entrada {
+    margin-bottom: 24px;
+    border-bottom: 1px solid $light;
+}
+.entrada:last-of-type {
+    border: none;
+}
+
+.flex {
+    display: flex;
+    justify-content: flex-end;
+}
+.widget-curso {
+    list-style: none;
+    margin-top: 120px;
+}
+.widget-curso__label {
+    font-weight: 700;
+}
+.widget-curso__info {
+    font-weight: normal;
+}
+

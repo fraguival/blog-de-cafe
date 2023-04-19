@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
+$first: #3e2a21;
+$light: #fdca40;
+$border: #800;
+$bg: #455;
+
+
+
+html {
+    box-sizing: border-box;
+}
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+body {
+    background-color: $bg;
+    font-family: 'Quicksand', sans-serif;
+}
+
+/*Globales*/
+.contenedor {
+    max-width: 1200px;
+    width: 96%;
+    margin: 0 auto;
+}
+a {
+    text-decoration: none;
+}
+h1 { font-size: 48px; }
+h2 { font-size: 32px; }
+h3 { font-size: 24px; }
+img {
+    width: 100%;
+    border: 8px solid $border;
+    border-radius: 12px ; 
+}
+.boton {
+    display: inline-block;
+    background-color: $first;
+    color: $light;
+    font-size: 20px;
+    margin-bottom: 12px;
+    padding: 8px 12px;
+    border: 2px solid;
+    border-radius: 8px;
+}

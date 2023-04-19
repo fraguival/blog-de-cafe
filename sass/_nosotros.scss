@@ -1,0 +1,10 @@
+.main {
+    color: $light;
+}
+@media (min-width: 768px) {
+    .nosotros {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 48px;
+    }
+}
